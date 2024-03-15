@@ -1,6 +1,6 @@
 ## Get App Password (for gmail)
 
-the steps below will walk you through generating an app password token to be used in [main.py](https://github.com/coleman-zachery/send_email/blob/main/main.py) in order to enable logging in to your gmail account and send email messages via the script.
+the steps below will walk you through generating an app password token to be used in [main.py](https://github.com/coleman-zachery/send_email/blob/main/main.py) in order to enable logging in to your gmail account and send email messages via the python script.
 
 ---
 
