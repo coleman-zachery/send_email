@@ -39,7 +39,7 @@ def send_email(sender, password, recipients=[], subject, message, file_paths=[])
 
 # example variables
 my_email = 'your.email@gmail.com'
-my_password = 'aaaa aaaa aaaa aaaa'
+my_password = 'aaaa aaaa aaaa aaaa' # must be obtained as an app password from your email account after 2-factor authentication is enabled
 recipients = ['person.1.example@gmail.com', 'person.2.example@gmail.com', 'person.3.example@gmail.com']
 subject = 'Email subject line'
 message = 'Hello, this is a test email sent with python!'
