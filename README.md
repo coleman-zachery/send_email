@@ -1,7 +1,5 @@
 ## Get App Password (for gmail)
 
----
-
 1. login to your gmail account, click gear icon, and then click "See all settings"
 
 ![image](https://github.com/coleman-zachery/send_email/assets/42438576/5f9b7ffa-04fa-4878-a918-3cb3cbb65bb2)
