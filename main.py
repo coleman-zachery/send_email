@@ -6,7 +6,7 @@ from email.mime.base import MIMEBase
 from email import encoders
 
 # send email function
-def send_email(sender, password, recipients=[], subject, message, file_paths=[]):
+def send_email(sender, password, subject, message, recipients=[], file_paths=[]):
 
     # ensure that recipients and file_paths are list types
     if type(recipients) != type([]): recipients = [recipients]
@@ -40,10 +40,10 @@ def send_email(sender, password, recipients=[], subject, message, file_paths=[])
 # example variables
 my_email = 'your.email@gmail.com'
 my_password = 'aaaa aaaa aaaa aaaa' # must be obtained as an app password from your email account after 2-factor authentication is enabled
-recipients = ['person.1.example@gmail.com', 'person.2.example@gmail.com', 'person.3.example@gmail.com']
 subject = 'Email subject line'
 message = 'Hello, this is a test email sent with python!'
+recipients = ['person.1.example@gmail.com', 'person.2.example@gmail.com', 'person.3.example@gmail.com']
 file_paths = ['path/to/file_1.ext', 'path/to/file_2.ext', 'path/to/file_3.ext']
 
 # example function call
-send_email(my_email, my_password, recipients, subject, message, file_paths)
+send_email(my_email, my_password, subject, message, recipients, file_paths)
